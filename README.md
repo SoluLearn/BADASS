@@ -38,6 +38,26 @@ This package comes with example Jupyter notebooks, located in the `notebooks` fo
    
 2. **[Run_BADASS_Alpha_Amylase.ipynb](notebooks/Run_BADASS_Alpha_Amylase.ipynb)**: This notebook shows how to use BADASS for protein sequence optimization for alpha amylase, either using a Seq2Fitness or a an **ESM2** model.
 
+## Citation
+
+### Citation
+
+If you find this work useful, please cite our paper:
+
+> Gomez-Uribe, C. A., Gado, J., Islamov, M. Designing diverse and high-performance proteins with a large language model in the loop. bioRxiv. [DOI will be updated after publication].
+
+For citing the code, you can use this BibTeX entry:
+
+```
+@article{gomez2024badass,
+  title = {Designing diverse and high-performance proteins with a large language model in the loop},
+  author = {Gomez-Uribe, Carlos A. and Gado, Japheth and Islamov, Meiirbek},
+  journal = {bioRxiv},
+  year = {2024},
+  note = {Preprint},
+  url = {https://github.com/SoluLearn/BADASS},
+}
+```
 ## Ethical Considerations and Responsible Use
 
 Seq2Fitness and BADASS enable protein engineering, with potential applications in biomanufacturing, pharmaceuticals, and environmental sustainability. However, as with any powerful technology, it is essential to consider the ethical implications of its use. Protein design, particularly when combined with machine learning, offers tremendous opportunities to solve pressing global challenges. Yet, it also carries inherent risks, particularly if applied irresponsibly or maliciously.
