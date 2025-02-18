@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "badass"
+version = "1.0.0"
+description = "High performing sequence to property architecture and sequence sampling algorithm."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = ["protein engineering", "machine learning", "deep learning", "sequence to property"]
+authors = [{ name = "Carlos A. Gomez-Uribe " }, {name = "Japheth Gado"}, {"name" = "Meiirbek Islamov"}]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.optional-dependencies]
+dev = ["check-manifest"]
+test = ["coverage"]
+
+[project.urls]
+"Homepage" = "https://github.com/SoluLearn/BADASS/"
+
+[tool.setuptools]
+packages = {find = {}}

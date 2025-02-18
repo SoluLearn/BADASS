@@ -1,13 +1,13 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from sequence_utils import pseudolikelihood_ratio_from_tensor, compute_num_mutations_from_padded_rel_seqs_tensors
+from badass.utils.sequence_utils import pseudolikelihood_ratio_from_tensor, compute_num_mutations_from_padded_rel_seqs_tensors
 import os
 import pandas as pd
 import esm
 
 eps = 1e-8
-from sequence_utils import AMINO_ACIDS, AA_TO_IDX
+from badass.utils.sequence_utils import AMINO_ACIDS, AA_TO_IDX
 
 class ProteinFunctionPredictor_with_probmatrix(nn.Module):
     """

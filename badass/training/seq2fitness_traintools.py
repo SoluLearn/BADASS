@@ -7,8 +7,8 @@ import scipy.stats as stats
 from scipy.stats import spearmanr
 import torch
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from sequence_utils import create_absolute_sequences_list, convert_rel_seqs_to_tensors, pad_rel_seq_tensors_with_nan, rel_sequences_to_dict
-from seq2fitness_models import ProteinFunctionPredictor_with_probmatrix
+from badass.utils.sequence_utils import create_absolute_sequences_list, convert_rel_seqs_to_tensors, pad_rel_seq_tensors_with_nan, rel_sequences_to_dict
+from badass.models.seq2fitness_models import ProteinFunctionPredictor_with_probmatrix
 
 class ModelTrainer():
     """

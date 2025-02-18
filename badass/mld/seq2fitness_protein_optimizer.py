@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt
 import esm
 from typing import List
 from io import StringIO
-from seq2fitness_traintools import ModelCheckpoint
-from seq2fitness_models import compute_model_scores
-from sequence_sampler import CombinatorialMutationSampler
-from sequence_utils import (AMINO_ACIDS,
+from badass.training.seq2fitness_traintools import ModelCheckpoint
+from badass.models.seq2fitness_models import compute_model_scores
+from badass.mld.sequence_sampler import CombinatorialMutationSampler
+from badass.utils.sequence_utils import (AMINO_ACIDS,
                     AA_TO_IDX,
                     EPS,
                     rel_sequences_to_dict,

@@ -1,5 +1,5 @@
 import numpy as np
-from sequence_utils import AMINO_ACIDS, AA_TO_IDX, EPS, compute_Neff_for_probmatrix
+from badass.utils.sequence_utils import AMINO_ACIDS, AA_TO_IDX, EPS, compute_Neff_for_probmatrix
 
 class CombinatorialMutationSampler:
     """
